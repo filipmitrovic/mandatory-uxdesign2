@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Material Design for Bootstrap fonts and icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+  <!-- Material Design for Bootstrap CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>quiz spel</title>
+  <link rel="stylesheet" href="c.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+  <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+  <script src="j.js" defer></script>
+</head>
+<body>
+  <!-- Modal -->
+  <div class="modal fade modal-box" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="stäng ruta ">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary modal-close" aria-label="stäng ruta" data-dismiss="modal">CLOSE</button>
+          <button type="button" class="btn btn-primary re-start" aria-label="starta om spel">RE-START</button>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <div class="bmd-layout-container bmd-drawer-f-l">
+    <header class="bmd-layout-header">
+      <div class="navbar navbar-light bg-faded">
+        <button class="navbar-toggler" aria-label="Meny knapp" type="button" data-toggle="drawer" data-target="#dw-s1">
+          <span class="sr-only">Meny knapp</span>
+          <i class="material-icons">menu</i>
+        </button>
+        <ul class="nav navbar-nav">
+          <li class="nav-item">Quiz master</li>
+        </ul>
+      </div>
+    </header>
+    <div id="dw-s1" class="bmd-layout-drawer bg-faded">
+      <header>
+        <a class="navbar-brand">Quiz master</a>
+      </header>
+      <ul class="list-group">
+        <a href="#" aria-label="Gå till quiz sida" class="list-group-item game-screen">Game screen</a>
+        <a href="#" aria-label="spel statistik sida" class="list-group-item stats">Stats</a>
+        <a href="#" aria-label="info om spelet sida" class="list-group-item about-this-app">About this app</a>
+      </ul>
+    </div>
+    <main class="bmd-layout-content">
+      <button class="btn start-button" aria-label="starta quiz" type="submit">Start quiz</button>
+    </main>
+  </div>
+</body>
+</html>

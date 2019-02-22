@@ -1,0 +1,135 @@
+.start-button:focus {
+    background: repeating-linear-gradient(
+        45deg,
+        #ffbb00,
+        #ffbb00 10px,
+        #ffda74 10px,
+        #ffda74 20px
+    );
+}
+.start-button:hover {
+    background: repeating-linear-gradient(
+        45deg,
+        #ffbb00,
+        #ffbb00 10px,
+        #ffda74 10px,
+        #ffda74 20px
+    );
+}
+.bmd-layout-content {
+    min-height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+}
+.navbar-toggler:focus {
+    background: repeating-linear-gradient(
+        45deg,
+        #ffbb00,
+        #ffbb00 10px,
+        #ffda74 10px,
+        #ffda74 20px
+    );
+}
+.navbar-toggler:hover {
+    background: repeating-linear-gradient(
+        45deg,
+        #ffbb00,
+        #ffbb00 10px,
+        #ffda74 10px,
+        #ffda74 20px
+    );
+}
+.start-button {
+    font-size: 35px;
+    border: 1px solid black;
+}
+.list-group-item {
+    color: black;
+    border-bottom: 1px solid rgb(66, 66, 66);
+}
+.list-group-item:hover {
+    background: repeating-linear-gradient(
+        45deg,
+        #ffbb00,
+        #ffbb00 10px,
+        #ffda74 10px,
+        #ffda74 20px
+    );
+    cursor: pointer;
+}
+.list-group-item:first-child {
+    border-top: 1px solid rgb(66, 66, 66);
+}
+
+.list-group-item:focus {
+    background: repeating-linear-gradient(
+        45deg,
+        #ffbb00,
+        #ffbb00 10px,
+        #ffda74 10px,
+        #ffda74 20px
+    );
+}
+
+.submit-btn {
+    border: 1px solid black;
+}
+.submit-btn:focus {
+    background: repeating-linear-gradient(
+        45deg,
+        #ffbb00,
+        #ffbb00 10px,
+        #ffda74 10px,
+        #ffda74 20px
+    );
+}
+.submit-btn:hover {
+    background: repeating-linear-gradient(
+        45deg,
+        #ffbb00,
+        #ffbb00 10px,
+        #ffda74 10px,
+        #ffda74 20px
+    );
+}
+.re-start:focus {
+    background: repeating-linear-gradient(
+        45deg,
+        #ffbb00,
+        #ffbb00 10px,
+        #ffda74 10px,
+        #ffda74 20px
+    );
+}
+.re-start:hover {
+    background: repeating-linear-gradient(
+        45deg,
+        #ffbb00,
+        #ffbb00 10px,
+        #ffda74 10px,
+        #ffda74 20px
+    );
+}
+.modal-close:focus {
+        background: repeating-linear-gradient(
+        45deg,
+        #ffbb00,
+        #ffbb00 10px,
+        #ffda74 10px,
+        #ffda74 20px
+    );
+}
+.modal-close:hover {
+    background: repeating-linear-gradient(
+    45deg,
+    #ffbb00,
+    #ffbb00 10px,
+    #ffda74 10px,
+    #ffda74 20px
+);
+}
